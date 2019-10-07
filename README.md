@@ -1,12 +1,12 @@
 # food-delivery-app
 
-##Project Description
+## Project Description
 ```
 This is a food ordering application inspired by Ele.me.
 The project used a restuarant datas as example to show
 the food presentation, shopping cart, rating function.
 ```
-##Visit the website
+## Visit the website
 Please visit the website on [click here](http://47.106.200.21:8900/)
 ## Project setup
 ```
