@@ -7,6 +7,28 @@
         :options="scrollOptions"
         v-if="goods.length"
       >
+        <template slot="bar" slot-scope="props">
+          <cube-scroll-nav-bar
+            direction="vertical"
+            :labels="props.labels"
+            :txts="barTxts"
+            :current="props.current"
+          >
+            <template slot-scope="props">
+              <div class="text">
+                <support-ico
+                  v-if="props.txt.type>=1"
+                  :size=3
+                  :type="props.txt.type"
+                ></support-ico>
+                <span>{{props.txt.name}}</span>
+                <span class="num" v-if="props.txt.count">
+                  <bubble :num="props.txt.count"></bubble>
+                </span>
+              </div>
+            </template>
+          </cube-scroll-nav-bar>
+        </template>
         <cube-scroll-nav-panel
           v-for="good in goods"
           :key="good.name"
@@ -15,6 +37,7 @@
         >
           <ul>
             <li
+              @click="selectFood(food)"
               v-for="food in good.foods"
               :key="food.name"
               class="food-item"
@@ -26,11 +49,14 @@
                 <h2 class="name">{{food.name}}</h2>
                 <p class="desc">{{food.description}}</p>
                 <div class="extra">
-                  <span class="count">月售{{food.sellCount}}份</span><span>好评率{{food.rating}}%</span>
+                  <span class="count">sold {{food.sellCount}} Rating{{food.rating}}%</span>
                 </div>
                 <div class="price">
-                  <span class="now">￥{{food.price}}</span>
-                  <span class="old" v-show="food.oldPrice">￥{{food.oldPrice}}</span>
+                  <span class="now">${{food.price}}</span>
+                  <span class="old" v-show="food.oldPrice">${{food.oldPrice}}</span>
+                </div>
+                <div class="cart-control-wrapper">
+                  <cart-control @add="onAdd" :food="food"></cart-control>
                 </div>
               </div>
             </li>
@@ -38,11 +64,23 @@
         </cube-scroll-nav-panel>
       </cube-scroll-nav>
     </div>
+    <div class="shop-cart-wrapper">
+      <shop-cart
+        ref="shopCart"
+        :select-foods="selectFoods"
+        :delivery-price="seller.deliveryPrice"
+        :min-price="seller.minPrice">
+      </shop-cart>
+    </div>
   </div>
 </template>
 
 <script>
   import { getGoods } from 'api'
+  import ShopCart from 'components/shop-cart/shop-cart'
+  import CartControl from 'components/cart-control/cart-control.vue'
+  import SupportIco from 'components/support-ico/support-ico'
+  import Bubble from 'components/bubble/bubble'
   export default {
     name: 'goods',
     props: {
@@ -56,18 +94,98 @@
     data() {
       return {
         goods: [],
+        selectedFood: {},
         scrollOptions: {
           click: false,
           directionLockThreshold: 0
         }
       }
     },
-    methods: {
-      fetch() {
-        getGoods().then((goods) => {
-          this.goods = goods
+    computed: {
+      seller() {
+        return this.data.seller
+      },
+      selectFoods() {
+        let result = []
+        this.goods.forEach((good) => {
+          good.foods.forEach((food) => {
+            if (food.count) {
+              result.push(food)
+            }
+          })
         })
+        return result
+      },
+      barTxts() {
+        let result = []
+        this.goods.forEach((good) => {
+          const { type, name, foods } = good
+          let count = 0
+          foods.forEach((food) => {
+            count += food.count || 0
+          })
+          result.push({
+            type,
+            name,
+            count
+          })
+        })
+        return result
       }
+    },
+    methods: {
+      selectFood(food) {
+        this.selectedFood = food
+        this._showFood()
+        this._showShopCartSticky()
+      },
+      fetch() {
+        if (!this.fetched) {
+          this.fetched = true
+          getGoods().then((goods) => {
+            this.goods = goods
+          })
+        }
+      },
+      onAdd(el) {
+        this.$refs.shopCart.drop(el)
+      },
+      _showFood() {
+        this.foodComp = this.foodComp || this.$createFood({
+          $props: {
+            food: 'selectedFood'
+          },
+          $events: {
+            leave: () => {
+              this._hideShopCartList()
+            },
+            add: (el) => {
+              this.shopCartStickyComp.drop(el)
+            }
+          }
+        })
+        this.foodComp.show()
+      },
+      _showShopCartSticky() {
+        this.shopCartStickyComp = this.shopCartStickyComp || this.$createShopCartSticky({
+          $props: {
+            selectFoods: 'selectFoods',
+            deliveryPrice: this.seller.deliveryPrice,
+            minPrice: this.seller.minPrice,
+            fold: true
+          }
+        })
+        this.shopCartStickyComp.show()
+      },
+      _hideShopCartList() {
+        this.shopCartStickyComp.hide()
+      }
+    },
+    components: {
+      SupportIco,
+      CartControl,
+      ShopCart,
+      Bubble
     }
   }
 </script>

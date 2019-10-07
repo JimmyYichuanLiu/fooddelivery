@@ -42,31 +42,32 @@
       "http://fuss10.elemecdn.com/6/ad/779f8620ff49f701cd4c58f6448b6jpeg.jpeg?imageView2/1/w/180/h/180"
     ],
     "infos": [
-      "该商家支持发票,请下单写好发票抬头",
-      "品类:其他菜系,包子粥店",
-      "北京市昌平区回龙观西大街龙观置业大厦底商B座102单元1340",
-      "营业时间:10:00-20:30"
+      "The seller allows any adjustment. Please contact them for further information",
+      "Category: Chinese Food",
+      "2010 Milvia Street, Berkeley, CA 94704",
+      "Opening Time:10:00-20:30",
+      "Contact Number：5106790262"
     ]
   },
   "goods": [
     {
-      "name": "热销榜",
+      "name": "Recommended",
       "type": -1,
       "foods": [
         {
-          "name": "皮蛋瘦肉粥",
+          "name": "Pork Porridge with preserved egg",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Porridge",
           "sellCount": 229,
           "rating": 100,
-          "info": "一碗皮蛋瘦肉粥，总是我到粥店时的不二之选。香浓软滑，饱腹暖心，皮蛋的Q弹与瘦肉的滑嫩伴着粥香溢于满口，让人喝这样的一碗粥也觉得心满意足",
+          "info": "The most famous porridge in Berkeley. Having a porridge for breakfast is also the best choice to begin the day. We spent 5 hours to achieve its best taste ",
           "ratings": [
             {
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "很喜欢的粥",
+              "text": "My favourite Porridge",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -88,7 +89,7 @@
           "image": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "扁豆焖面",
+          "name": "Chinese Lou Mein",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -122,7 +123,7 @@
           "image": "http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "葱花饼",
+          "name": "Pancake with green onions",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -134,14 +135,14 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "没啥味道",
+              "text": "Lack of flavor",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
-              "text": "很一般啊",
+              "text": "It's not that good",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -156,7 +157,7 @@
           "image": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "牛肉馅饼",
+          "name": "Beef Pancake",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -168,7 +169,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "难吃不推荐",
+              "text": "It's too bad",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -190,7 +191,7 @@
           "image": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "招牌猪肉白菜锅贴/10个",
+          "name": "Seasoned Pork Pancake/10 Each",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -202,7 +203,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "不脆,不好吃",
+              "text": "It's not crispy",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -224,10 +225,10 @@
           "image": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "南瓜粥",
+          "name": "Pumpkin Porridge",
           "price": 9,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Sweet Vegan Porridge",
           "sellCount": 91,
           "rating": 100,
           "ratings": [
@@ -257,10 +258,10 @@
           "image": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红豆薏米美肤粥",
+          "name": "Red Bean Porridge",
           "price": 12,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Sweet Vegan Porridge",
           "sellCount": 86,
           "rating": 100,
           "info": "",
@@ -291,7 +292,7 @@
           "image": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "八宝酱菜",
+          "name": "Pickled Mustard Tuber",
           "price": 4,
           "oldPrice": "",
           "description": "",
@@ -325,7 +326,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红枣山药糙米粥",
+          "name": "Red Jujube Porridge",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -359,7 +360,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "糊塌子",
+          "name": "Vegan Pancake",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -395,14 +396,14 @@
       ]
     },
     {
-      "name": "单人精彩套餐",
+      "name": "Recommended Lunch Special",
       "type": 2,
       "foods": [
         {
-          "name": "红枣山药粥套餐",
+          "name": "Red Jujube Porridge Set",
           "price": 29,
           "oldPrice": 36,
-          "description": "红枣山药糙米粥,素材包,爽口莴笋丝,四川泡菜或八宝酱菜,配菜可备注",
+          "description": "Red Jujube Porridge,Vegan Steamed Bun,Seasoned Cucumber,Tuber",
           "sellCount": 17,
           "rating": 100,
           "info": "",
@@ -421,11 +422,11 @@
       ]
     },
     {
-      "name": "冰爽饮品限时特惠",
+      "name": "Discount Juices",
       "type": 1,
       "foods": [
         {
-          "name": "VC无限橙果汁",
+          "name": "Orange Juice",
           "price": 8,
           "oldPrice": 10,
           "description": "",
@@ -437,7 +438,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "还可以",
+              "text": "Pretty Good",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -454,11 +455,11 @@
       ]
     },
     {
-      "name": "精选热菜",
+      "name": "Featured Entree",
       "type": -1,
       "foods": [
         {
-          "name": "娃娃菜炖豆腐",
+          "name": "Baby Cabbage with Tofu",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -470,7 +471,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "菜量还可以,味道还可以",
+              "text": "Highly Recommend",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -485,7 +486,7 @@
           "image": "http://fuss10.elemecdn.com/d/2d/b1eb45b305635d9dd04ddf157165fjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "手撕包菜",
+          "name": "Cooked Cabbage",
           "price": 16,
           "oldPrice": "",
           "description": "",
@@ -512,7 +513,7 @@
           "image": "http://fuss10.elemecdn.com/9/c6/f3bc84468820121112e79583c24efjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "香酥黄金鱼/3条",
+          "name": "Fish and Chips/3 prices",
           "price": 11,
           "oldPrice": "",
           "description": "",
@@ -541,11 +542,11 @@
       ]
     },
     {
-      "name": "爽口凉菜",
+      "name": "Appetizers",
       "type": -1,
       "foods": [
         {
-          "name": "八宝酱菜",
+          "name": "Pickled Mustard Tuber",
           "price": 4,
           "oldPrice": "",
           "description": "",
@@ -579,7 +580,7 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "拍黄瓜",
+          "name": "Seasoned Cucumber",
           "price": 9,
           "oldPrice": "",
           "description": "",
@@ -615,14 +616,14 @@
       ]
     },
     {
-      "name": "精选套餐",
+      "name": "Lunch Special",
       "type": -1,
       "foods": [
         {
-          "name": "红豆薏米粥套餐",
+          "name": "Red Jujube Porridge Set",
           "price": 37,
           "oldPrice": "",
-          "description": "红豆薏米粥,三鲜干蒸烧卖,拍黄瓜",
+          "description": "Red Jujube Porridge,Vegan Steamed Bun,Seasoned Cucumber,Tuber",
           "sellCount": 3,
           "rating": 100,
           "info": "",
@@ -639,7 +640,7 @@
           "image": "http://fuss10.elemecdn.com/f/49/27f26ed00c025b2200a9ccbb7e67ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "皮蛋瘦肉粥套餐",
+          "name": "Pork Porridge with preserved egg Set",
           "price": 31,
           "oldPrice": "",
           "description": "",
@@ -661,11 +662,11 @@
       ]
     },
     {
-      "name": "果拼果汁",
+      "name": "Fruits and Juices",
       "type": -1,
       "foods": [
         {
-          "name": "蜜瓜圣女萝莉杯",
+          "name": "Watermelon and baby tomato",
           "price": 6,
           "oldPrice": "",
           "description": "",
@@ -677,7 +678,7 @@
           "image": "http://fuss10.elemecdn.com/b/5f/b3b04c259d5ec9fa52e1856ee50dajpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "加多宝",
+          "name": "Cold Tea",
           "price": 6,
           "oldPrice": "",
           "description": "",
@@ -711,7 +712,7 @@
           "image": "http://fuss10.elemecdn.com/b/9f/5e6c99c593cf65229225c5661bcdejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "VC无限橙果汁",
+          "name": "Orange Juice",
           "price": 8,
           "oldPrice": 10,
           "description": "",
@@ -723,7 +724,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "还可以",
+              "text": "Pretty Good",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -740,11 +741,11 @@
       ]
     },
     {
-      "name": "小吃主食",
+      "name": "Rice and Noodles",
       "type": -1,
       "foods": [
         {
-          "name": "扁豆焖面",
+          "name": "Chinese Lou Mein",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -778,7 +779,7 @@
           "image": "http://fuss10.elemecdn.com/c/6b/29e3d29b0db63d36f7c500bca31d8jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "葱花饼",
+          "name": "Pancake with green onions",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -790,14 +791,14 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "没啥味道",
+              "text": "Lack of flavor",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
               "username": "2******3",
               "rateTime": 1469271264000,
               "rateType": 1,
-              "text": "很一般啊",
+              "text": "It's not that good",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -812,7 +813,7 @@
           "image": "http://fuss10.elemecdn.com/f/28/a51e7b18751bcdf871648a23fd3b4jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "牛肉馅饼",
+          "name": "Beef Pancake",
           "price": 14,
           "oldPrice": "",
           "description": "",
@@ -824,7 +825,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "难吃不推荐",
+              "text": "It's too bad",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -846,7 +847,7 @@
           "image": "http://fuss10.elemecdn.com/d/b9/bcab0e8ad97758e65ae5a62b2664ejpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "招牌猪肉白菜锅贴/10个",
+          "name": "Seasoned Pork Pancake/10 Each",
           "price": 17,
           "oldPrice": "",
           "description": "",
@@ -858,7 +859,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 1,
-              "text": "不脆,不好吃",
+              "text": "It's not crispy",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -880,7 +881,7 @@
           "image": "http://fuss10.elemecdn.com/7/72/9a580c1462ca1e4d3c07e112bc035jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "糊塌子",
+          "name": "Vegan Pancake",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -916,14 +917,14 @@
       ]
     },
     {
-      "name": "特色粥品",
+      "name": "Special Porridge",
       "type": -1,
       "foods": [
         {
-          "name": "皮蛋瘦肉粥",
+          "name": "Pork Porridge with preserved egg",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Porridge",
           "sellCount": 229,
           "rating": 100,
           "ratings": [
@@ -931,7 +932,7 @@
               "username": "3******c",
               "rateTime": 1469281964000,
               "rateType": 0,
-              "text": "很喜欢的粥",
+              "text": "My favourite Porridge",
               "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png"
             },
             {
@@ -953,10 +954,10 @@
           "image": "http://fuss10.elemecdn.com/c/cd/c12745ed8a5171e13b427dbc39401jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "南瓜粥",
+          "name": "Pumpkin Porridge",
           "price": 9,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Sweet Porridge",
           "sellCount": 91,
           "rating": 100,
           "info": "",
@@ -987,10 +988,10 @@
           "image": "http://fuss10.elemecdn.com/8/a6/453f65f16b1391942af11511b7a90jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红豆薏米美肤粥",
+          "name": "Red Bean Porridge",
           "price": 12,
           "oldPrice": "",
-          "description": "甜粥",
+          "description": "Sweet Porridge",
           "sellCount": 86,
           "rating": 100,
           "info": "",
@@ -1021,7 +1022,7 @@
           "image": "http://fuss10.elemecdn.com/d/22/260bd78ee6ac6051136c5447fe307jpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "红枣山药糙米粥",
+          "name": "Red Jujube Porridge",
           "price": 10,
           "oldPrice": "",
           "description": "",
@@ -1055,10 +1056,10 @@
           "image": "http://fuss10.elemecdn.com/9/b5/469d8854f9a3a03797933fd01398bjpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "鲜蔬菌菇粥",
+          "name": "Vegetable Porridge with mushroom",
           "price": 11,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Porridge",
           "sellCount": 56,
           "rating": 100,
           "info": "",
@@ -1088,10 +1089,10 @@
           "image": "http://fuss10.elemecdn.com/e/a3/5317c68dd618929b6ac05804e429ajpeg.jpeg?imageView2/1/w/750/h/750"
         },
         {
-          "name": "田园蔬菜粥",
+          "name": "Vegan Porridge",
           "price": 10,
           "oldPrice": "",
-          "description": "咸粥",
+          "description": "Porridge",
           "sellCount": 33,
           "rating": 100,
           "info": "",
@@ -1131,14 +1132,14 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "不错,粥很好喝,我经常吃这一家,非常赞,以后也会常来吃,强烈推荐.",
+      "text": "It's my favourite restuarant in Berkeley!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "南瓜粥",
-        "皮蛋瘦肉粥",
-        "扁豆焖面",
-        "娃娃菜炖豆腐",
-        "牛肉馅饼"
+        "Pumpkin Porridge",
+        "Pork Porridge with preserved egg",
+        "Chinese Lou Mein",
+        "Baby Cabbage with Tofu",
+        "Beef Pancake"
       ]
     },
     {
@@ -1148,10 +1149,10 @@
       "score": 4,
       "rateType": 0,
       "deliveryTime": "",
-      "text": "服务态度不错",
+      "text": "Their service is really good",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "扁豆焖面"
+        "Chinese Lou Mein"
       ]
     },
     {
@@ -1169,7 +1170,7 @@
       "deliveryTime": 20,
       "score": 5,
       "rateType": 0,
-      "text": "良心店铺",
+      "text": "Great Restaurant",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1189,7 +1190,7 @@
       "deliveryTime": 70,
       "score": 1,
       "rateType": 1,
-      "text": "送货速度蜗牛一样",
+      "text": "Their delivery speed is so slow",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1199,7 +1200,7 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "很喜欢的粥店",
+      "text": "My favourite restaurant",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1209,7 +1210,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "量给的还可以",
+      "text": "I feel really full",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1229,10 +1230,10 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "孩子喜欢吃这家",
+      "text": "My kid loves it a lot!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": [
-        "南瓜粥"
+        "Pumpkin Porridge"
       ]
     },
     {
@@ -1241,7 +1242,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "粥挺好吃的",
+      "text": "The porridge is really good!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1261,7 +1262,7 @@
       "deliveryTime": 15,
       "score": 5,
       "rateType": 0,
-      "text": "送货速度很快",
+      "text": "The delivery is really quick！",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1281,7 +1282,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "下雨天给快递小哥点个赞",
+      "text": "They even delivery in rainy days!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1291,7 +1292,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "好",
+      "text": "Great!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1301,7 +1302,7 @@
       "deliveryTime": "",
       "score": 5,
       "rateType": 0,
-      "text": "吃了还想再吃",
+      "text": "I want to order it again！",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1311,7 +1312,7 @@
       "deliveryTime": "",
       "score": 3,
       "rateType": 1,
-      "text": "发票开的不对",
+      "text": "They sent my food to a wrong place",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1321,7 +1322,7 @@
       "deliveryTime": 30,
       "score": 5,
       "rateType": 0,
-      "text": "好吃",
+      "text": "Great!",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1331,7 +1332,7 @@
       "deliveryTime": 40,
       "score": 5,
       "rateType": 0,
-      "text": "还不错吧",
+      "text": "It's ok.",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },
@@ -1351,7 +1352,7 @@
       "deliveryTime": "",
       "score": 4,
       "rateType": 0,
-      "text": "很喜欢的粥",
+      "text": "My favourite porridge",
       "avatar": "http://static.galileo.xiaojukeji.com/static/tms/default_header.png",
       "recommend": []
     },

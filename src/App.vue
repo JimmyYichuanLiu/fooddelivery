@@ -66,7 +66,7 @@
 </script>
 <style lang="stylus" scoped>
   .tab-wrapper
-    postion: fixed
+    position: fixed
     top: 136px
     left: 0
     right: 0
