@@ -7,7 +7,7 @@ The project used a restuarant datas as example to show
 the food presentation, shopping cart, rating function.
 ```
 ## Visit the website
-Please visit the website on [click here](http://47.106.200.21:8900/)
+Please visit the website on [click here](http://61chuanjimmy.com/food-delivery/)
 ## Project setup
 ```
 npm install

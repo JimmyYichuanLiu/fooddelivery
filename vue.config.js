@@ -57,5 +57,5 @@ module.exports = {
       .use(webpack.ContextReplacementPlugin,
         [/moment[/\\]locale$/, /zh-cn/])
   },
-  baseUrl: ''
+  publicPath: ''
 }
